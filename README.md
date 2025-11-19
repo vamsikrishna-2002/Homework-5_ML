@@ -13,6 +13,15 @@ V = np.array([[1.0, 0.0],
 weights, context = scaled_dot_product_attention(Q, K, V)  
 print("Attention Weights:\n", weights)  
 print("Context Vector:\n", context)  
+
+Example Output :  
+Attention Weights:  
+                                 [0.4319   0.1361   0.4319]   
+Context Vector:  
+                                        [1.7277   0.7042]   
+
+
+                              
   
 
 Question-2  
@@ -21,10 +30,6 @@ Output Shape Verification:
 Input shape: torch.Size ([32, 10, 128])  
 Output shape: torch.Size ([32, 10, 128])  
 
-Example Output :  
-Attention Weights:  
-                                 [0.4319   0.1361   0.4319]   
-Context Vector:  
-                                        [1.7277   0.7042]    
+   
             
   
