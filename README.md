@@ -15,7 +15,12 @@ print("Attention Weights:\n", weights)
 print("Context Vector:\n", context)  
   
 
-  
+Question-2  
+
+Output Shape Verification:  
+Input shape: torch.Size ([32, 10, 128])  
+Output shape: torch.Size ([32, 10, 128])  
+
 Example Output :  
 Attention Weights:  
                                  [0.4319   0.1361   0.4319]   
